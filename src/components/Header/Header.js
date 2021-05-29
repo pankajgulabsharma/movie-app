@@ -1,7 +1,12 @@
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
-  return <div></div>;
+  return (
+    <div>
+      <span className="header">🎬 Entertainment Hub 🎥</span>
+    </div>
+  );
 };
 
 export default Header;
